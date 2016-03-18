@@ -4,20 +4,33 @@
     android:layout_height="match_parent">
 
     <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fortune_default_placeholder"
+        android:id="@+id/fortuneTextView"
+        android:padding="10dp"
+        android:layout_above="@+id/restartButton"
+        android:layout_marginBottom="44dp"
+        android:textAlignment="center" />
+
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="your fortune"
-        android:id="@+id/fortuneTextView"
+        android:text="@string/play_again_button"
+        android:id="@+id/restartButton"
+        android:onClick="restartClick"
+        android:padding="10dp"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="play again"
-        android:id="@+id/restartButton"
-        android:layout_below="@+id/fortuneTextView"
-        android:layout_centerHorizontal="true"
-        android:onClick="restartClick" />
+        android:text="@string/notification_button"
+        android:id="@+id/notificationButton"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="notifyClick" />
 
 </RelativeLayout>

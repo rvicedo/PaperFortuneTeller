@@ -8,41 +8,45 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Red"
+        android:text="@string/red_button"
         android:id="@+id/redButton"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:onClick="colorClick" />
+        android:onClick="colorClick"
+        android:padding="10dp" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Yellow"
+        android:text="@string/yellow_button"
         android:id="@+id/yellowButton"
         android:layout_alignParentTop="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        android:onClick="colorClick" />
+        android:onClick="colorClick"
+        android:padding="10dp" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Blue"
+        android:text="@string/blue_button"
         android:id="@+id/blueButton"
         android:layout_centerVertical="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:onClick="colorClick" />
+        android:onClick="colorClick"
+        android:padding="10dp" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Green"
+        android:text="@string/green_button"
         android:id="@+id/greenButton"
         android:layout_centerVertical="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        android:onClick="colorClick" />
+        android:onClick="colorClick"
+        android:padding="10dp" />
 
 </RelativeLayout>
